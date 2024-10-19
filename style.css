@@ -27,6 +27,10 @@ body {
     background-color: #ffffff;
 }
 
+.header ul{
+    display: none;
+}
+
 .header img {
     width: 40px;
     height: 40px;
@@ -321,6 +325,27 @@ color:#000000;
 
     .header {
         padding: 20px 50px;
+
+    }
+
+    .header img{
+        display: none;
+    }
+
+    .header ul{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        width: 62px;
+        height: 20px;
+        margin-right: 150px;
+        color: #344563;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+
+
 
     }
 
